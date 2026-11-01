@@ -38,3 +38,36 @@ These scripts provide protocol information and basic algorithm classification. T
 ## Author
 
 Sunesh Krishna
+
+# Original Nmap Reference Scripts
+
+This directory contains the original Nmap NSE scripts used as reference implementations for the NetSentinel project.
+
+The scripts are obtained from the official Nmap GitHub repository and are included for educational, research, and comparison purposes.
+
+## Reference Scripts
+
+### 1. MQTT Subscribe Script
+- **Filename:** `mqtt-subscribe.nse`
+- **Source:** https://github.com/nmap/nmap/blob/master/scripts/mqtt-subscribe.nse
+- **Purpose:** Connects to MQTT brokers and retrieves published messages through topic subscriptions.
+
+### 2. SSH Algorithm Enumeration Script
+- **Filename:** `ssh2-enum-algos.nse`
+- **Source:** https://github.com/nmap/nmap/blob/master/scripts/ssh2-enum-algos.nse
+- **Purpose:** Identifies the cryptographic algorithms supported by SSH servers.
+
+## Attribution
+
+The original scripts are developed and maintained by the Nmap Project.
+
+Official Repository: https://github.com/nmap/nmap
+
+Official Website: https://nmap.org/
+
+The original source code and applicable copyright and licensing notices are retained. The scripts in this directory are not modified versions of the enhanced NetSentinel implementations.
+
+The enhanced scripts developed for this project are maintained separately in the main repository.
+
+**Project:** NetSentinel – Nmap NSE Script Enhancements  
+**Author:** Sunesh Krishna N
